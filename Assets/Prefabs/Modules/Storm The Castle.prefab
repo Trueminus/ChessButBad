@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8650949119364444006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8650949119364444004}
+  - component: {fileID: 8650949119364444007}
+  m_Layer: 0
+  m_Name: Storm The Castle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8650949119364444004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8650949119364444006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.622885, y: 10.249438, z: -1.6542726}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8650949119364444007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8650949119364444006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b568a6c16ba0a814583e264e7d2a9c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 7725727556789207128, guid: 264725c8a2c21384db1b8cd8141887a6, type: 3}
+  - {fileID: 4771069210332434682, guid: 801943b133988d042b9465745aabb6b3, type: 3}
+  - {fileID: 6115556016582725961, guid: f9404513efca52d43bc94199fb577f75, type: 3}
+  - {fileID: 8871566872943086141, guid: 7065193d39adbc94ba4e7a7337a73d5f, type: 3}
+  - {fileID: 766456995244742517, guid: 8156b595ce044034296df73689b0d5ac, type: 3}
+  - {fileID: 1552566191667328095, guid: a1a388cbdfda6524793e52cf0f1db8b4, type: 3}
+  - {fileID: 5349384906983769372, guid: 9cc26a02d8bf932468771483a0e2088a, type: 3}
+  teamMaterials:
+  - {fileID: 2100000, guid: d1190e528933c3d41a8e4489faabbf7a, type: 2}
+  - {fileID: 2100000, guid: 919092360b7a1f54d935b5422afd68ef, type: 2}

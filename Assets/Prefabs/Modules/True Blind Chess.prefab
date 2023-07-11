@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4195829545815394494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3031137815935338569}
+  - component: {fileID: -2330591116117877738}
+  m_Layer: 0
+  m_Name: True Blind Chess
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3031137815935338569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4195829545815394494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.6514208, y: 13.214397, z: -17.525621}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-2330591116117877738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4195829545815394494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c85d7d0919289f48931ffca243fbba4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 7725727556789207128, guid: 264725c8a2c21384db1b8cd8141887a6, type: 3}
+  - {fileID: 4771069210332434682, guid: 801943b133988d042b9465745aabb6b3, type: 3}
+  - {fileID: 6115556016582725961, guid: f9404513efca52d43bc94199fb577f75, type: 3}
+  - {fileID: 8871566872943086141, guid: 7065193d39adbc94ba4e7a7337a73d5f, type: 3}
+  - {fileID: 7067685372657158344, guid: a9c0bacffb45d6146b1971c7a721d32b, type: 3}
+  - {fileID: 1552566191667328095, guid: a1a388cbdfda6524793e52cf0f1db8b4, type: 3}
+  teamMaterials:
+  - {fileID: 2100000, guid: 97482faf693c03947b4d5f34e14ddda8, type: 2}
